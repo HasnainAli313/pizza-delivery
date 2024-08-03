@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    border:1px solid red;
+    
+}
+/* Hero */
+.hero{
+    background-image: url(./assets/hero.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 350px;
+}
+
+/* Explore Foods */
+.explore-food{
+    border: 1px solid   red;
+}
+.pizza1{
+    background-image: url("./assets/pizza1.jpg");
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+}
+.pizza2{
+    background-image: url("./assets/pizza2.jpg");
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+
+}
+.pizza3{
+    background-repeat: no-repeat;
+    background-image: url("./assets/pizza3.jpg");
+    height: 250px;
+    width: 250px;
+}
