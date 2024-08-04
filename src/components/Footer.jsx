@@ -6,15 +6,15 @@ import twitter from "../assets/twitter.png"
 function Footer() {
   return (
    <>
-    <footer>
-        <a href="">
-            <img src={facebook} alt="" />
+    <footer className='d-flex gap-3 justify-content-center p-3'>
+        <a href="https://facebook.com">
+            <img style={{width:"30px"}} src={facebook} alt="" />
         </a>
-        <a href="">
-            <img src={instagram} alt="" />
+        <a href="https://instagram.com">
+            <img style={{width:"30px"}} src={instagram} alt="" />
         </a>
-        <a href="">
-            <img src={twitter} alt="" />
+        <a href="https://twitter.com">
+            <img style={{width:"30px"}} src={twitter} alt="" />
         </a>
     </footer>
    </>
