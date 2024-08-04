@@ -3,23 +3,23 @@ import icon from "../assets/icons8-pizza-32.png"
 
 function Navbar() {
   return (
-    <nav className='navbar'>
-        <div  className='icon navbar'>
+    <nav className='nav-bar'>
+        <div  className=' d-flex gap-2'>
             <img src={icon} alt="" />
-            <h1>Pizza Delivery</h1>
+            <h6>Pizza Delivery</h6>
         </div>
         <ul className='d-flex gap-3  p-3 list-unstyled'>
             <li>
-                <a className='text-decoration-none text-danger' href='#'>Home</a>
+                <a className='navlink' href='#'>Home</a>
             </li>
             <li>
-                <a className='text-decoration-none text-danger' href='#about'>About</a>
+                <a className='navlink' href='#about'>About</a>
             </li>
             <li>
-                <a className='text-decoration-none text-danger' href='#foods'>Foods</a>
+                <a className='navlink' href='#foods'>Foods</a>
             </li>
             <li>
-                <a className='text-decoration-none text-danger' href='#contact'>Contact</a>
+                <a className='navlink' href='#contact'>Contact</a>
             </li>
         </ul>
     </nav>
