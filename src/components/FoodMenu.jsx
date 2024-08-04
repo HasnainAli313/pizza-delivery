@@ -3,7 +3,7 @@ import Cart from './Cart'
 
 function FoodMenu() {
   return (
-    <section className='d-flex  flex-column justify-content-center'>
+    <section className='d-flex  bg-light flex-column justify-content-center'>
         <h3 className='text-center p-5 '>Food Menu</h3>
         <div className='food-menu d-flex justify-content-center flex-wrap '>
           <Cart foodTitle="Margherita" price="$2.5" />

@@ -6,7 +6,8 @@ import twitter from "../assets/twitter.png"
 function Footer() {
   return (
    <>
-    <footer className='d-flex gap-3 justify-content-center p-3'>
+    <footer className=''>
+        <div className='d-flex gap-3 justify-content-center p-3'>
         <a href="https://facebook.com">
             <img style={{width:"30px"}} src={facebook} alt="" />
         </a>
@@ -16,6 +17,8 @@ function Footer() {
         <a href="https://twitter.com">
             <img style={{width:"30px"}} src={twitter} alt="" />
         </a>
+        </div>
+        <p className='text-center'>All right reserved <span style={{color:"red"}}>2024</span></p>
     </footer>
    </>
   )
