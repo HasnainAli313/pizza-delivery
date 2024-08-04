@@ -5,7 +5,7 @@ import sample from "../assets/sample.jpg"
 function Cart(props) {
   return (
     <>
-          <div className='bg-light d-flex  gap-4 m-1 align-items-center rounded-3 p-2 w-[70]'>
+          <div className='bg-light d-flex   gap-4 m-1 align-items-center rounded-3 p-2 '>
                 <div>
                     <img style={{height:"90px",width:"90px" , borderRadius:"10px"}} src={sample} alt="" />
                 </div>
