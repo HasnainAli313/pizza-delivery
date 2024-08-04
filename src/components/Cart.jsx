@@ -1,5 +1,5 @@
 import React from 'react'
-import sample from "../assets/sample.jpg"
+
 
 
 function Cart(props) {
@@ -7,7 +7,7 @@ function Cart(props) {
     <>
           <div className='bg-white d-flex   gap-4 m-1 align-items-center rounded-3 p-2 '>
                 <div>
-                    <img style={{height:"90px",width:"90px" , borderRadius:"10px"}} src={sample} alt="" />
+                    <img style={{height:"90px",width:"90px" , borderRadius:"10px"}} src={props.image} alt="" />
                 </div>
 
                 <div>

@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import ExploreFoods from './components/ExploreFoods';
 import FoodMenu from './components/FoodMenu';
 import Footer from './components/Footer';
+
 function App() {
 
   return (

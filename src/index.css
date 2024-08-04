@@ -28,9 +28,6 @@
 }
 
 /* Explore Foods */
-.explore-food{
-    border: 1px solid   red;
-}
 .pizza1{
     background-image: url("./assets/pizza1.jpg");
     background-repeat: no-repeat;
