@@ -8,4 +8,5 @@ export default defineConfig({
     host: true, // This will allow network access
     port: 3000, // You can specify a port if needed
   },
+  base:"/pizza-delivery"
 })
